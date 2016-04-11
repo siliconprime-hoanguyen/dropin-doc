@@ -21,7 +21,7 @@ GET map/:lat/:long
 
 ### Customer requests streaming 
 
-This API is to send stream request to available droperators, given customer fulfilled all requiremennts.
+This API is to send stream request to available droperators, given customer fulfilled all requirements.
 
 ```javascript
 POST /gigs
@@ -43,16 +43,17 @@ post /gigs/claim/:gigId
 ```
 
 #### Params
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of gig to be claimed
 }
-
+```
 #### Body
-
+```javascript
 {
   response: ['accept', 'reject'] //string, required, must be one of the 2 values
 }
-
+```
 
 ### Customer confirms streaming
 
@@ -61,10 +62,11 @@ post /gigs/confirm/:gigId
 ```
 
 #### Params
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of gig to be confirmed
 }
-
+```
 
 #### Body
 ```javascript
@@ -77,9 +79,11 @@ post /gigs/reject/:gigId
 ```
 
 #### Params
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of claimed gig to be rejected
 }
+```
 
 
 #### Body
@@ -95,9 +99,12 @@ post /gigs/cancel/:gigId
 ```
 
 #### Params
+
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of confirmed gig to be cancelled
 }
+```
 
 
 #### Body
@@ -111,9 +118,12 @@ post /gigs/handshake/:gigId
 ```
 
 #### Params
+
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of confirmed gig to be handshaked
 }
+```
 
 #### Body
 ```javascript
@@ -127,9 +137,12 @@ post /gigs/start/:gigId
 ```
 
 #### Params
+
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of handshaked gig to be started
 }
+```
 
 #### Body
 ```javascript
@@ -143,9 +156,12 @@ post /gigs/stop/:gigId
 ```
 
 #### Params
+
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of started gig to be stopped
 }
+````
 
 #### Body
 ```javascript
@@ -160,9 +176,12 @@ post /gigs/rate/:gigId
 ```
 
 #### Params
+
+```javascript
 {
   gigId: 'fdfdsfdsfds' //string, required, the id of stopped gig to be rate
 }
+```
 
 #### Body
 ```javascript
@@ -171,7 +190,7 @@ post /gigs/rate/:gigId
 }
 ```
 
-Notes: who fails rating will be locked down from further gig's related ations.
+### Notes: who fails rating will be locked down from further gig's related ations.
 
 
 
