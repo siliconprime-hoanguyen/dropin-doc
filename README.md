@@ -1,5 +1,37 @@
 #Dropin API
 
+## Account APIs
+
+### Register a new account
+
+```javascript
+POST /accounts
+```
+### Body
+
+```javascript
+{
+
+    "firstName" : "Nguyen",
+    "lastName" : "Hoa",
+
+    "archive" : false,
+    "status" : "active",
+    "type" : "user",
+    "operator" : null,
+    "organization": "organization" //for app user, this field is NULL, for web user, this field must have a value map to //organziation collection
+"identities":[{	
+		"type":"email",
+		"value":"codehubio+29@gmail.com"
+	},
+	{	
+		"type":"phone",
+		"value":"841662203830"
+	}]
+}
+
+```
+
 ## Gig APIs
 
 ### Customer searches for operators
