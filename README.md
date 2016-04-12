@@ -7,7 +7,7 @@
 ```javascript
 POST /accounts
 ```
-### Body
+#### Body
 
 ```javascript
 {
@@ -34,6 +34,57 @@ POST /accounts
 
 ```
 
+### Get profile
+
+This API is to get user profile
+
+```javascript
+GET accounts/:accountId
+```
+
+#### Params
+
+```javascript
+{
+  accountId: '12312312' //required, id of account to get profile
+}
+```
+
+#### Result (example)
+```javascript
+{
+    "identities": [
+        {
+            "type": "email",
+            "value": "xxxx@gmail.com",
+            "status": "unverified",
+            "createdAt": "2016-04-12T03:10:12.542Z",
+            "updatedAt": "2016-04-12T03:10:12.542Z",
+            "id": "570c6714c0a4eea545970638"
+        },
+        {
+            "type": "phone",
+            "value": "xxxxxx",
+            "status": "unverified",
+            "createdAt": "2016-04-12T03:10:12.544Z",
+            "updatedAt": "2016-04-12T03:10:12.544Z",
+            "id": "570c6714c0a4eea545970639"
+        }
+    ],
+    "firstName": "Nguyen",
+    "lastName": "Hoa",
+    "archive": false,
+    "status": "active",
+    "type": "user",
+    "referralRate": 5,
+    "createdAt": "2016-04-12T03:10:12.477Z",
+    "updatedAt": "2016-04-12T03:10:12.583Z",
+    "referralCode": "HyTzwy9",
+    "id": "570c6714c0a4eea545970637",
+    "operatorRating": 5,
+    "customerRating": 5
+}
+```
 ## Gig APIs
 
 ### Customer searches for operators
