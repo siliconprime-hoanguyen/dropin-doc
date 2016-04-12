@@ -19,7 +19,9 @@ POST /accounts
     "status" : "active",
     "type" : "user",
     "operator" : null,
-    "organization": "organization" //for app user, this field is NULL, for web user, this field must have a value map to //organziation collection
+    "organization": "organization" 
+    //app user, this field is NULL, 
+    //web user, this field must have a value map to organziation collection
 "identities":[{	
 		"type":"email",
 		"value":"codehubio+29@gmail.com"
