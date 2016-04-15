@@ -1,5 +1,25 @@
 #Dropin API
 
+## Push notification
+
+### Send push notification to account
+
+```javascript
+POST /notifications/push
+```
+
+### Body
+```javascript
+{
+  "recipientId":"571071114372f31b0edae280",
+  "data":{
+    "message":"sfdsf" // data is decided by user
+  }	
+}
+```
+
+
+
 ## Logs
 
 ### Logging to server
