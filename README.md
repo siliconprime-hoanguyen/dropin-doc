@@ -1,5 +1,26 @@
 #Dropin API
 
+## Logs
+
+### Logging to server
+
+```javascript
+POST /logs
+```
+
+#### Body
+```javascript
+{
+  "level":"debug",
+  "message":"testing message",
+  "data":{
+    "test":"test"
+  }
+}
+```
+
+
+
 ## Account APIs
 
 ### Register a new account
