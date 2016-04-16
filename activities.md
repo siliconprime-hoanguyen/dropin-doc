@@ -1,4 +1,4 @@
-April 16 2016:
+### April 16 2016:
 - Hoa deployed merge-code-staging-development-operator-api-redeploy on dropin-api-staging
   + Skipping operator
   + Add meta data update for gig
