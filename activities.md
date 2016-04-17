@@ -1,7 +1,7 @@
 ### April 16 2016:
 ```javascript
     {
-      action: 'deploy,
+      action: 'deploy',
       doer: 'hoa'
       branch: 'merge-code-staging-development-operator-api-redeploy',
       env: 'dropin-api-staging,
@@ -16,7 +16,7 @@
 ### April 17 2016:
 ```javascript
     {
-      action: 'deploy,
+      action: 'deploy',
       doer: 'hoa'
       branch: 'new-gig-flow-merge-pusher',
       env: 'dropin-api-dev,
