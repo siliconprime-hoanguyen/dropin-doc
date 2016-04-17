@@ -3,7 +3,7 @@
     {
       action: 'deploy',
       doer: 'hoa'
-      branch: 'merge-code-staging-development-operator-api-redeploy',
+      appVersion: 'merge-code-staging-development-operator-api-redeploy',
       env: 'dropin-api-staging',
       features: [
         'skipping operator',
@@ -19,7 +19,7 @@
     {
       action: 'deploy',
       doer: 'hoa'
-      branch: 'new-gig-flow-merge-pusher',
+      appVersion: 'new-gig-flow-merge-pusher',
       env: 'dropin-api-dev',
       features: [
         'new pusher integration',
@@ -33,7 +33,7 @@
     {
       action: 'deploy',
       doer: 'hoa'
-      branch: 'new-gig-flow-merge-pusher',
+      appVersion: 'new-gig-flow-merge-pusher-hard-code-channel',
       env: 'dropin-api-dev',
       features: [
         'new pusher integration',
