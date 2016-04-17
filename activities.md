@@ -28,3 +28,18 @@
       datetime: 'April 17 2016 11:46:00 AM'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      branch: 'new-gig-flow-merge-pusher',
+      env: 'dropin-api-dev',
+      features: [
+        'new pusher integration',
+        'test api for pusher',
+        'channel is now hardcoded as "gig"'
+      ],
+      datetime: 'April 17 2016 12:00:00 PM'
+    }
+```
