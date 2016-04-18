@@ -43,3 +43,17 @@
       datetime: 'April 17 2016 12:00:00 PM'
     }
 ```
+
+### April 18 2016:
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'new-gig-flow-fix-bug-wrong-method',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug using wrong method when sending socket'
+      ],
+      datetime: 'April 18 2016 10:30:00 AM'
+    }
+```
