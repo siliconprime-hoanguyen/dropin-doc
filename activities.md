@@ -10,7 +10,8 @@
         'meda data update for gig: city, address, ...'
         'return profile image, latitude, longitude'
       ],
-      datetime: 'April 16 2016 11:00:00 AM'
+      datetime: 'April 16 2016 11:00:00 AM',
+      status: 'ok'
     }
 ```
 
@@ -25,7 +26,8 @@
         'new pusher integration',
         'test api for pusher'
       ],
-      datetime: 'April 17 2016 11:46:00 AM'
+      datetime: 'April 17 2016 11:46:00 AM',
+      status: 'ok'
     }
 ```
 
@@ -40,7 +42,8 @@
         'test api for pusher',
         'channel is now hardcoded as "gig"'
       ],
-      datetime: 'April 17 2016 12:00:00 PM'
+      datetime: 'April 17 2016 12:00:00 PM',
+      status: 'ok'
     }
 ```
 
@@ -54,6 +57,21 @@
       features: [
         'fix bug using wrong method when sending socket'
       ],
-      datetime: 'April 18 2016 10:30:00 AM'
+      datetime: 'April 18 2016 10:30:00 AM',
+      status: 'ok'
+    }
+```
+### April 19 2016:
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-onesignal-pusher',
+      env: 'dropin-api-dev',
+      features: [
+        'adding onesignal and pusher'
+      ],
+      datetime: 'April 19 2016 10:28:00 AM',
+      status: 'failed'
     }
 ```
