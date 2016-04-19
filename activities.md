@@ -163,3 +163,16 @@
       status: 'ok'
     }
 ```
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-one-signal',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug develop'
+      ],
+      datetime: 'April 19 2016 1:17:00 PM',
+      status: 'ok'
+    }
+```
