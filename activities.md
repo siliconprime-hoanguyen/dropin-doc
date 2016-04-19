@@ -107,3 +107,17 @@
       status: 'ok'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-allow-cors',
+      env: 'dropin-api-dev',
+      features: [
+        'allow cors'
+      ],
+      datetime: 'April 19 2016 11:20:00 AM',
+      status: 'ok'
+    }
+```
