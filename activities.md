@@ -121,3 +121,17 @@
       status: 'ok'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-develop',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug develop'
+      ],
+      datetime: 'April 19 2016 11:47:00 AM',
+      status: 'ok'
+    }
+```
