@@ -75,3 +75,35 @@
       status: 'failed'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-onesignal-pusher-redeploy',
+      env: 'dropin-api-dev',
+      features: [
+        'adding onesignal and pusher',
+        'fix bug deploy'
+      ],
+      datetime: 'April 19 2016 10:45:00 AM',
+      status: 'ok'
+    }
+```
+
+
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-onesignal-pusher-redeploy',
+      env: 'dropin-api-dev',
+      features: [
+        'adding onesignal and pusher',
+        'fix bug deploy'
+      ],
+      datetime: 'April 19 2016 10:45:00 AM',
+      status: 'ok'
+    }
+```
