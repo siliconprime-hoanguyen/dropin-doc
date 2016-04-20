@@ -245,3 +245,31 @@
       status: 'ok'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-authenticate',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug authenticate channel for pusher'
+      ],
+      datetime: 'April 20 2016 4:29:00 PM',
+      status: 'ok'
+    }
+```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-authenticat-redeploy',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug authenticate channel for pusher'
+      ],
+      datetime: 'April 20 2016 4:34:00 PM',
+      status: 'ok'
+    }
+```
