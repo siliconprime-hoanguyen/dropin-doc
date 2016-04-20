@@ -1,5 +1,25 @@
 #Dropin API
 
+## Upload
+
+### Get signed URL for upload
+
+```javascript
+POST /storage
+```
+
+### Body
+```javascript
+{
+  type:['profileImage','chat','gig'], //required
+  gig: 'fdsgdgfgdf' //optional, gigId
+}
+```
+
+After that, please call PUT to the url returned to upload to S3.
+
+
+
 ## Push notification
 
 ### Send push notification to account
