@@ -209,11 +209,25 @@
       action: 'deploy',
       doer: 'hoa'
       appVersion: 'dropin-api-dev-fix-bug-adding-device',
-      env: 'dropin-api-staging',
+      env: 'dropin-api-dev',
       features: [
         'fix bug adding device'
       ],
       datetime: 'April 20 2016 10:20:00 AM',
+      status: 'ok'
+    }
+```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-authenticate-endpoint',
+      env: 'dropin-api-dev',
+      features: [
+        'adding authenticate endpoint for pusher for directly sending messages between clients'
+      ],
+      datetime: 'April 20 2016 11:59:00 AM',
       status: 'ok'
     }
 ```
