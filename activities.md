@@ -264,12 +264,42 @@
     {
       action: 'deploy',
       doer: 'hoa'
-      appVersion: 'develop-fix-bug-authenticat-redeploy',
+      appVersion: 'develop-fix-bug-authenticate-redeploy',
       env: 'dropin-api-dev',
       features: [
         'fix bug authenticate channel for pusher'
       ],
       datetime: 'April 20 2016 4:34:00 PM',
+      status: 'ok'
+    }
+```
+
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-authenticate-wrong-usage',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug authenticate channel for pusher'
+      ],
+      datetime: 'April 20 2016 4:45:00 PM',
+      status: 'ok'
+    }
+```
+
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-fix-bug-authenticate-not-using-json',
+      env: 'dropin-api-dev',
+      features: [
+        'fix bug authenticate channel for pusher'
+      ],
+      datetime: 'April 20 2016 5:02:00 PM',
       status: 'ok'
     }
 ```
