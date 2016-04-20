@@ -202,3 +202,18 @@
       status: 'ok'
     }
 ```
+
+### April 20 2016:
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'dropin-api-dev-fix-bug-adding-device',
+      env: 'dropin-api-staging',
+      features: [
+        'fix bug adding device'
+      ],
+      datetime: 'April 20 2016 10:20:00 AM',
+      status: 'ok'
+    }
+```
