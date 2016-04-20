@@ -231,3 +231,17 @@
       status: 'ok'
     }
 ```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-gig-metadata',
+      env: 'dropin-api-dev',
+      features: [
+        'allowing update meta data on gig'
+      ],
+      datetime: 'April 20 2016 11:59:00 AM',
+      status: 'ok'
+    }
+```
