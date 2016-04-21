@@ -332,3 +332,15 @@
       status: 'ok'
     }
 ```
+
+{
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'dev-release-private-channel',
+      env: 'dropin-api-dev',
+      features: [
+      'change all channels to private and fix bug'
+      ],
+      datetime: 'April 16 2016 3:18:00 PM',
+      status: 'ok'
+    }
