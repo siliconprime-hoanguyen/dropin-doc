@@ -332,7 +332,7 @@
       status: 'ok'
     }
 ```
-
+```javascript
 {
       action: 'deploy',
       doer: 'hoa'
@@ -344,3 +344,18 @@
       datetime: 'April 16 2016 3:18:00 PM',
       status: 'ok'
     }
+```
+
+```javascript
+{
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop-private-channel-with-payable',
+      env: 'dropin-api-staging',
+      features: [
+      'payable flow testing'
+      ],
+      datetime: 'April 16 2016 3:59:00 PM',
+      status: 'ok'
+    }
+```
