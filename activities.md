@@ -303,3 +303,32 @@
       status: 'ok'
     }
 ```
+
+
+### April 21 2016:
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop',
+      env: 'dropin-api-dev',
+      features: [
+      ],
+      datetime: 'April 21 2016 11:20:00 AM',
+      status: 'ok'
+    }
+```
+
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop',
+      env: 'dropin-api-dev',
+      features: [
+      'change all channels to private'
+      ],
+      datetime: 'April 16 2016 11:00:00 AM',
+      status: 'ok'
+    }
+```
