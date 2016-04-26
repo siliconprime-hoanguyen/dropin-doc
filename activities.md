@@ -369,6 +369,11 @@
       prevAppVersion: 'dev-release-gig-getter',
       env: 'dropin-api-dev',
       features: [
+      	'getting gig api for user',
+      	'by pass purchase for web customer temporarily',
+      	'operator avatar in claiming and enrouting',
+      	'fix bug sending email',
+      	'dynamic log service'
       ],
       datetime: 'April 26 2016 2:39:00 PM',
       status: 'ok'
