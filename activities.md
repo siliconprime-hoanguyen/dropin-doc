@@ -359,3 +359,19 @@
       status: 'ok'
     }
 ```
+
+### April 26 2016:
+```javascript
+    {
+      action: 'deploy',
+      doer: 'hoa'
+      appVersion: 'develop',
+      prevAppVersion: 'dev-release-gig-getter',
+      env: 'dropin-api-dev',
+      features: [
+      ],
+      datetime: 'April 26 2016 2:39:00 PM',
+      status: 'ok'
+    }
+```
+	
