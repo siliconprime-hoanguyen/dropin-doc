@@ -443,4 +443,94 @@ post /gigs/rate/:gigId
 }
 ```
 
-** note **
+**note**
+
+
+## Chat History
+
+### Get All Chat record of a gig
+
+```javascript
+'get /chat/:gigId'
+```
+
+**params**
+
+|  key  |   type   | optional | default values |         description          |
+|-------|----------|----------|----------------|------------------------------|
+| gigId | objectId | false    | NA             | ID of gig want to get detail |
+| skip  | int      | true     | 0              | number of record to skip     |
+| limit | int      | true     | 10             | number of messsage to fetch  |
+
+**output**
+
+```js
+[
+    {
+        "gig": "57077c882fe344bb6def7f58",
+        "account": "57077c912fe344bb6def7f62",
+        "message": "third mess ",
+        "createdAt": "2016-04-27T20:35:28.102Z",
+        "updatedAt": "2016-04-27T20:35:28.102Z",
+        "id": "572122906a6efa361698ae6c"
+    },
+    {
+        "gig": "57077c882fe344bb6def7f58",
+        "account": "57077c912fe344bb6def7f62",
+        "message": "fourth mess ",
+        "createdAt": "2016-04-27T20:35:32.210Z",
+        "updatedAt": "2016-04-27T20:35:32.210Z",
+        "id": "572122946a6efa361698ae6d"
+    },
+    {
+        "gig": "57077c882fe344bb6def7f58",
+        "account": "57076063674ea5da598a6a19",
+        "message": "fifth mess from the other",
+        "createdAt": "2016-04-27T20:35:46.042Z",
+        "updatedAt": "2016-04-27T20:35:46.042Z",
+        "id": "572122a26a6efa361698ae6e"
+    }
+]
+```
+
+**note**
+
+* Messages are ordered in time
+* Use start/limit for paging
+
+
+ ### Save chat message
+
+```javascript
+'post /chat/save'
+```
+
+**params**
+
+|   key   |   type   | optional | default values |         description          |
+|---------|----------|----------|----------------|------------------------------|
+| gigId   | objectId | false    | NA             | ID of gig want to get detail |
+| from    | objectId | false    | NA             | Sender of message            |
+| message | String   | false    | NA             | message content              |
+
+
+**output**
+
+```js
+{
+    "account": "57076063674ea5da598a6a19",
+    "message": "fifth mess from the other",
+    "gig": "57077c882fe344bb6def7f58",
+    "createdAt": "2016-04-27T20:45:20.565Z",
+    "updatedAt": "2016-04-27T20:45:20.565Z",
+    "id": "572124e0a528836216cfdb59"
+}
+```
+
+**note**
+
+* Clients save message after receiving it
+* Clients **do not** save message it send
+
+
+ 
