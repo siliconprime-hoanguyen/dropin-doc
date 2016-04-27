@@ -344,6 +344,103 @@ post /gigs/rate/:gigId
 ### Notes: who fails rating will be locked down from further gig's related ations.
 
 
+## Streaming History
+
+### Get All Stream Record
+
+```javascript
+'get /gigs/:accountId/getall'
+```
+
+**params**
+
+|    key    |   type   | optional | default values |                                                                                                                              description                                                                                                                               |
+|-----------|----------|----------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| status    | string   | true     | NA             | status of gig ['pendingOperator', 'operatorFound', 'allOperatorsRejected', 'operatorEnroute', 'handshaking', 'streaming', 'purchased', 'voted', 'invoiceGenerated', 'invoiceSent', 'compensated', 'expired', 'failed', 'cancelled', 'customerRejected', 'terminated'], |
+| accountId | objectId | false    | NA             | ID of current user                                                                                                                                                                                                                                                                       |
+**output**
+
+```js
+[
+    {
+        "customer": "570732086a5e9bd853b4f00b",
+        "operator": null,
+        "customerRating": null,
+        "operatorRating": null,
+        "longitude": 106.70653,
+        "latitude": 10.787859,
+        "duration": 36,
+        "status": "expired",
+        "id": "57076378674ea5da598a6a67"
+    },
+    {
+        "customer": "570732086a5e9bd853b4f00b",
+        "operator": null,
+        "customerRating": null,
+        "operatorRating": null,
+        "longitude": 106.69966366142,
+        "latitude": 10.7900511675788,
+        "duration": 42,
+        "status": "expired",
+        "id": "57076453674ea5da598a6a8f"
+    }
+]
+```
+
+**note**
+
+* To get all success stream, use status=voted
+* User only get the involed gigs
+ 
 
 
+### Get Detail Stream Record
 
+```javascript
+'get /gigs/:accountId/:gigId'
+```
+
+**params**
+
+|    key    |   type   | optional | default values |         description          |
+|-----------|----------|----------|----------------|------------------------------|
+| gigId     | objectId | false    | NA             | ID of gig want to get detail |
+| accountId | objectId | false    | NA             | ID of current user           |
+
+
+**output**
+
+```js
+{
+    "gig": {
+        "duration": 69,
+        "status": "voted",
+        "customer": {
+            "firstName": "Ninh",
+            "lastName": "Vo"
+        },
+        "operator": {
+            "firstName": "Ninh Vo",
+            "lastName": "Thanh"
+        },
+        "customerRating": {
+            "value": 1
+        },
+        "operatorRating": {
+            "value": 1
+        },
+        "latitude": 10.81507,
+        "longitude": 106.673498
+    },
+    "purchase": {
+        "status": "confirmed",
+        "amount": 11.15
+    },
+    "payment": {
+        "status": "need_invoice",
+        "amount": 5.58
+    }
+}
+```
+
+** note **
