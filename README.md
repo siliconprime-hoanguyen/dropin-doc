@@ -346,6 +346,123 @@ post /gigs/rate/:gigId
 
 ## Streaming History
 
+### Get all payout records
+
+```javascript
+'get /payouts'
+```
+
+**params**
+
+|  key  |  type  | optional | default values |      description       |
+|-------|--------|----------|----------------|------------------------|
+| start | int    | true     | 0              | start from             |
+| limit | int    | true     | 0              | limit number of record |
+| sort  | string | true     | id desc        | sort by field/order    |
+| from  | date   | true     | NA             | from date              |
+| to    | date   | true     | AN             | to date                |
+
+
+**output**
+
+```javascript
+[{
+    "gig": {
+        "id": "5720955de2db76686c1f7c4d",
+        "createdAt": "2016-04-27T10:33:01.579Z",
+        "duration": 107,
+        "status": "voted",
+        "chatChannel": "chat_5720955de2db76686c1f7c4d",
+        "latitude": 10.784079034302,
+        "longitude": 106.704355850816,
+        "metaData" : {
+	        "location" : "123 Lê Quý Đôn, phường 7, Quận 3, Hồ Chí Minh, Vietnam", 
+	        "city" : "Ho Chi Minh City", 
+	        "state" : "CA", 
+	        "zipCode" : "70000", 
+	        "phoneNumber" : "84975787776", 
+	        "instruction" : "Show me!"
+	    }, 
+    },
+    "payment": {
+        "id": "572095c9e2db76686c1f7c58",
+        "amount": "5.89",
+        "createdAt": "2016-04-27T10:34:49.299Z"
+    },
+    "rating": {
+        "value": 1
+    },
+    "account": {
+        "firstName": "0",
+        "lastName": "1",
+        "profileImage": ""
+    }
+}]
+```
+
+**note**
+
+*metaData could be null
+
+### Get all purchases records
+
+```javascript
+'get /purchases'
+```
+
+**params**
+
+|  key  |  type  | optional | default values |      description       |
+|-------|--------|----------|----------------|------------------------|
+| start | int    | true     | 0              | start from             |
+| limit | int    | true     | 0              | limit number of record |
+| sort  | string | true     | id desc        | sort by field/order    |
+| from  | date   | true     | NA             | from date              |
+| to    | date   | true     | AN             | to date                |
+
+
+**output**
+
+```javascript
+[{
+    "gig": {
+        "id": "5720955de2db76686c1f7c4d",
+        "createdAt": "2016-04-27T10:33:01.579Z",
+        "duration": 107,
+        "status": "voted",
+        "chatChannel": "chat_5720955de2db76686c1f7c4d",
+        "latitude": 10.784079034302,
+        "longitude": 106.704355850816,
+        "metaData" : {
+	        "location" : "123 Lê Quý Đôn, phường 7, Quận 3, Hồ Chí Minh, Vietnam", 
+	        "city" : "Ho Chi Minh City", 
+	        "state" : "CA", 
+	        "zipCode" : "70000", 
+	        "phoneNumber" : "84975787776", 
+	        "instruction" : "Show me!"
+	    }, 
+    },
+    "payment": {
+        "id": "572095c9e2db76686c1f7c58",
+        "amount": "5.89",
+        "createdAt": "2016-04-27T10:34:49.299Z"
+    },
+    "rating": {
+        "value": 1
+    },
+    "account": {
+        "firstName": "0",
+        "lastName": "1",
+        "profileImage": ""
+    }
+}]
+```
+
+**note**
+
+*metaData could be null
+
+
 ### Get All Stream Record
 
 ```javascript
