@@ -509,7 +509,7 @@ post /gigs/rate/:gigId
 
 |   key   |   type   | optional | default values |         description          |
 |---------|----------|----------|----------------|------------------------------|
-| gigId   | objectId | false    | NA             | ID of gig want to get detail |
+| gig     | objectId | false    | NA             | ID of gig want to get detail |
 | from    | objectId | false    | NA             | Sender of message            |
 | message | String   | false    | NA             | message content              |
 
