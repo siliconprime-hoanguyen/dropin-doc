@@ -59,6 +59,23 @@ POST /logs
 }
 ```
 
+### Logging pusher message to server
+
+```javascript
+POST /notification/logs
+```
+
+#### Body
+```javascript
+{
+   "code":3,
+   "messageId": "32432432",
+   "gig": "fdsfdsfds",
+   "metaData": {
+      "fdsfs":"Fdsfds"
+   }
+}
+```
 
 
 ## Account APIs
