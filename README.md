@@ -372,7 +372,7 @@ post admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
   limit: 20 //default 99999
   from: '2015-02-20', //gig from?
   to: '2015-02-30' //gig to?,
-  status: 'voted,purchased' //good shit comes here, separated by  comma
+  status: 'voted,purchased' //good shit comes here, separated by comma, omit this param to get all.
 }
 ```
 
