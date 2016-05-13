@@ -361,7 +361,7 @@ post /gigs/rate/:gigId
 ### Count the gig for customer role of users
 
 ```javascript
-post admin/gigs/count
+post admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
 ```
 
 #### Params
@@ -372,7 +372,7 @@ post admin/gigs/count
   limit: 20 //default 99999
   from: '2015-02-20', //gig from?
   to: '2015-02-30' //gig to?,
-  status: ['voted','purchased'] //good shit comes here.
+  status: 'voted,purchased' //good shit comes here, separated by  comma
 }
 ```
 
