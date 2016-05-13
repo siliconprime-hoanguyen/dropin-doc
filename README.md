@@ -358,6 +358,41 @@ post /gigs/rate/:gigId
 }
 ```
 
+### Count the gig for customer role of users
+
+```javascript
+post admin/gigs/count
+```
+
+#### Params
+
+```javascript
+{
+  start: 0,
+  limit: 20 //default 99999
+  from: '2015-02-20', //gig from?
+  to: '2015-02-30' //gig to?,
+  status: ['voted','purchased'] //good shit comes here.
+}
+```
+
+#### Result sample
+```javascript
+{
+    "total": 2, //how many records in total?
+    "gigs": [
+        {
+            "_id": "57359b5efd50c1af4e0c642f", //customer id
+            "count": 1
+        },
+        {
+            "_id": "572d71dde971734904c2c254", //customer id
+            "count": 1
+        }
+    ]
+}
+```
+
 ### Notes: who fails rating will be locked down from further gig's related ations.
 
 
