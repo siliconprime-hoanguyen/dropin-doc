@@ -361,7 +361,7 @@ post /gigs/rate/:gigId
 ### Count the gig for customer role of users
 
 ```javascript
-post admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
+GET admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
 ```
 
 #### Params
