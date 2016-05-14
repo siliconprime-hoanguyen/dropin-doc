@@ -368,7 +368,7 @@ GET admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
 
 ```javascript
 {
-  start: 0,
+  skip: 0,
   limit: 20 //default 99999
   from: '2015-02-20', //gig from?
   to: '2015-02-30' //gig to?,
