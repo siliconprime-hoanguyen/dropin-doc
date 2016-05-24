@@ -20,6 +20,29 @@ After that, please call PUT to the url returned to upload to S3.
 
 
 
+## Admin
+
+### Getting gigs and counting gigs. 
+
+```javascript
+GET /admin/gigs/count?limit=100&skip=0&term=cod
+```
+
+### Query
+```javascript
+{
+  term:'abc', //email, phone
+  skip: 0, //start from record 0
+  limit: 100, //get 100 records.
+  identity: ['phone', 'email'], // one of the 2 value, do not provide to ignore.
+  inOrg: [true, false], // one of true or false, do not provide to ignore
+  role :['viewer', 'operator'], //viewer or operator, do not provide to inore
+  status: ['pendingOperator', 'operatorFound', 'allOperatorsRejected', 'operatorEnroute', 'handshaking', 'streaming', 'purchased', 'voted', 'invoiceGenerated', 'invoiceSent', 'compensated', 'expired', 'failed', 'cancelled', 'customerRejected', 'terminated'] //one or some of them, separated by comma, do not provide to get all
+}
+```
+
+
+
 ## Push notification
 
 ### Send push notification to account
