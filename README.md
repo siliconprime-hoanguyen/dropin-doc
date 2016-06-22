@@ -227,6 +227,18 @@ POST /gigs
 }
 ```
 
+OR 
+
+
+#### Body
+```javascript
+{
+  email: 'abc@def.com',
+  phone: 'xxxxxx'
+}
+```
+
+
 ### Operator responses streaming
 
 ```javascript
