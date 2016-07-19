@@ -738,3 +738,17 @@ GET admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
 
 
  
+## Zendesk
+
+### Get all articles
+
+```javascript
+GET /zendesk/articles
+```
+
+**params**
+
+**output**
+
+[Sample output](./zendeskArticles.json)
+
