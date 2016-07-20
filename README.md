@@ -752,3 +752,41 @@ GET /zendesk/articles
 
 [Sample output](./zendeskArticles.json)
 
+## MixPanel
+
+### Traking event
+
+```javascript
+post /mixpanel/track
+```
+
+
+**body**
+```javascript
+{
+  "udid": "56fd6925058babeb4e977fbf",
+  "event": "testing-event2",
+  "properties":{
+    "field3": "value 3",
+    "field4": "value 4"
+  }
+}
+```
+
+
+|   key      |   type   | optional | default values |         description          |
+|------------|----------|----------|----------------|------------------------------|
+| udid       | objectId | false    | NA             | udid of device               |
+| event      | String   | false    | NA             | event to track               |
+| properties | Object   | true     | NA             | property to store            |
+
+**output**
+
+```js
+{
+    code:200
+}
+```
+**note**
+
+* Mobile can use any unique id associate with phone for udid field
