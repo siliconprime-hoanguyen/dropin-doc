@@ -771,6 +771,45 @@ GET /zendesk/articles
 
 [Sample output](./zendeskArticles.json)
 
+
+
+### Get all articles
+
+```javascript
+GET /zendesk/articles
+```
+
+**params**
+
+**output**
+
+[Sample output](./zendeskArticles.json)
+
+
+### Submit new ticket
+
+```javascript
+POST /zendesk/tickets
+```
+
+**params**
+
+|   key      |   type   | optional | default values |         description          |
+|------------|----------|----------|----------------|------------------------------|
+| subject    | String   | false    | NA             | subject of ticket            |
+| body       | String   | false    | NA             | body of ticket               |
+| email      | String   | false    | NA             | email of user                |
+| attachment | String   | true     | NA             | attachment to send           |
+
+**output**
+
+[Sample output](./zenDeskTicketResponse.json)
+
+**notes**
+- add multiple attachment fields for multiple file upload
+
+
+
 ## MixPanel
 
 ### Traking event
