@@ -1,5 +1,24 @@
 #Dropin API
 
+
+## Device
+
+### Add device
+
+```javascript
+POST /devices
+```
+
+### Body
+```javascript
+{
+  deviceAddress:'xxxxxx', //required
+  deviceType: 'ios', //or 'android', required
+  bundleId: 'com.dropininc.com' //if not provided, then default bundle id configed is server will be used.
+}
+```
+
+
 ## Upload
 
 ### Get signed URL for upload
