@@ -1,0 +1,157 @@
+{
+  "ticket": {
+    "url": "https://dropinhelp.zendesk.com/api/v2/tickets/616.json",
+    "id": 616,
+    "external_id": null,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "created_at": "2016-07-25T19:36:21Z",
+    "updated_at": "2016-07-25T19:36:21Z",
+    "type": null,
+    "subject": "testing ticket",
+    "raw_subject": "testing ticket",
+    "description": "this is a testing message wiht 0 attachment",
+    "priority": null,
+    "status": "open",
+    "recipient": null,
+    "requester_id": 5363233117,
+    "submitter_id": 5363233117,
+    "assignee_id": 1333248797,
+    "organization_id": null,
+    "group_id": 26476427,
+    "collaborator_ids": [],
+    "forum_topic_id": null,
+    "problem_id": null,
+    "has_incidents": false,
+    "due_at": null,
+    "tags": [],
+    "custom_fields": [],
+    "satisfaction_rating": {
+      "score": "unoffered"
+    },
+    "sharing_agreement_ids": [],
+    "fields": [],
+    "brand_id": 514337,
+    "allow_channelback": false
+  },
+  "audit": {
+    "id": 136269721628,
+    "ticket_id": 616,
+    "created_at": "2016-07-25T19:36:21Z",
+    "author_id": 1333248797,
+    "via": {
+      "channel": "api",
+      "source": {
+        "from": {},
+        "to": {},
+        "rel": null
+      }
+    },
+    "metadata": {
+      "system": {
+        "ip_address": "188.154.33.51",
+        "location": "Oerlikon, 25, Switzerland",
+        "latitude": 47.41,
+        "longitude": 8.5582
+      },
+      "custom": {}
+    },
+    "events": [
+      {
+        "id": 136269721668,
+        "type": "Comment",
+        "author_id": 5363233117,
+        "body": "this is a testing message wiht 0 attachment",
+        "html_body": "<div class=\"zd-comment\"><p dir=\"auto\">this is a testing message wiht 0 attachment</p></div>",
+        "public": true,
+        "attachments": [],
+        "audit_id": 136269721628
+      },
+      {
+        "id": 136269721728,
+        "type": "Create",
+        "value": "5363233117",
+        "field_name": "requester_id"
+      },
+      {
+        "id": 136269721768,
+        "type": "Create",
+        "value": "testing ticket",
+        "field_name": "subject"
+      },
+      {
+        "id": 136269721828,
+        "type": "Create",
+        "value": "open",
+        "field_name": "status"
+      },
+      {
+        "id": 136269721888,
+        "type": "Create",
+        "value": null,
+        "field_name": "priority"
+      },
+      {
+        "id": 136269721968,
+        "type": "Create",
+        "value": null,
+        "field_name": "type"
+      },
+      {
+        "id": 136269722028,
+        "type": "Create",
+        "value": "1333248797",
+        "field_name": "assignee_id"
+      },
+      {
+        "id": 136269722128,
+        "type": "Create",
+        "value": "26476427",
+        "field_name": "group_id"
+      },
+      {
+        "id": 136269722268,
+        "type": "Notification",
+        "via": {
+          "channel": "rule",
+          "source": {
+            "to": {},
+            "from": {
+              "id": 61796887,
+              "title": "Notify requester of received request"
+            },
+            "rel": "trigger"
+          }
+        },
+        "subject": "[Request received] {{ticket.title}}",
+        "body": "Your request ({{ticket.id}}) has been received and is being reviewed by our support staff.\n\nTo add additional comments, reply to this email.\n\n{{ticket.comments_formatted}}",
+        "recipients": [
+          5363233117
+        ]
+      },
+      {
+        "id": 136269722528,
+        "type": "External",
+        "via": {
+          "channel": "rule",
+          "source": {
+            "to": {},
+            "from": {
+              "id": 78144188,
+              "title": "Send ticket changes to the DropIn Inc Slack Integration"
+            },
+            "rel": "trigger"
+          }
+        },
+        "resource": 20322787,
+        "body": "{\"status\": \"{{ticket.status}}\", \"id\": \"{{ticket.id}}\", \"updated_at\": \"{{ticket.updated_at_with_timestamp}}\"}"
+      }
+    ]
+  }
+}
