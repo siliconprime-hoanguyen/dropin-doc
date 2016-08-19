@@ -154,6 +154,19 @@ POST /accounts
 
 ```
 
+### Pinging
+
+This API is to ping 
+
+- For viewer please call this ONLY when streaming
+- For droperat please call this when enrouting and streaming
+
+```javascript
+POST /ping
+```
+
+
+
 ### Get profile
 
 This API is to get user profile
