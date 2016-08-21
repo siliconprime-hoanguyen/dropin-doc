@@ -286,7 +286,9 @@ post /gigs/claim/:gigId
 #### Body
 ```javascript
 {
-  response: ['accept', 'reject'] //string, required, must be one of the 2 values
+  response: ['accept', 'reject'], //string, required, must be one of the 2 values
+  travelTime: 333,  //estimate travel time measured in seconds
+  travelDistance: 33.3 //estimate travel distance measured in miles.
 }
 ```
 
