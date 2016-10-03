@@ -1,5 +1,22 @@
 #Dropin API
 
+Dev-API: https://apidev21.dropininc.com
+Dev-Web: https://appdev.dropininc.com
+
+QA-API: https://apiqa21.dropininc.com
+QA-Web: https://appqa.dropininc.com
+
+Staging-API: https://apistaging21.dropininc.com
+Staging-Web: https://appstaging.dropininc.com
+
+Production-API: https://apiprod21.dropininc.com
+Production-Web: https://app.dropininc.com
+
+
+NewProduction-API: https://apiprod22.dropininc.com
+NewProduction-Web: https://app2.dropininc.com
+
+
 
 ## Device
 
