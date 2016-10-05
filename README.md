@@ -19,6 +19,8 @@ NewProduction-Web: https://app2.dropininc.com
 Demo-Staging-API: https://apidemo.dropininc.com
 Demo-Staging-Web: https://demo.dropininc.com
 
+Research-QA-API: https://apiqaresearch.dropininc.com
+Research-QA-Web: https://appqaresearch.dropininc.com
 
 
 ## Device
