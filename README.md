@@ -259,6 +259,29 @@ GET map/:lat/:long
 ```
 
 
+### Customer requests drone streaming 
+
+This API is to send stream request to available droperators, given customer fulfilled all requirements.
+
+```javascript
+POST /gigs/drone/request
+```
+
+#### Body
+```javascript
+{
+  longitude: "10.232132132", //float number, required
+  latitude: "10.2323232", //float number, required
+  deviceId: "12321432432", //string, required for mobile user, optional for web user
+  claimId: "fdsfdsfd" //optional, for web user
+  metaData: { //optional, json
+    city:"Saigon"
+    //put whatever here
+  }
+}
+```
+
+
 ### Customer requests streaming 
 
 This API is to send stream request to available droperators, given customer fulfilled all requirements.
