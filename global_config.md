@@ -21,7 +21,7 @@
     "value": 1
   },
   {
-    "key": "droneAppPaidBaseCost", //drone base paid for operator drone app
+    "key": "droneAppBasePaid", //drone base paid for operator drone app
     "value": 25
   },
   {
@@ -57,11 +57,11 @@
     "value": 1
   },
   {
-    "key": "insuranceAppPaidBaseCost",  //insurance base paid for operator insurance app
+    "key": "insuranceAppBasePaid",  //insurance base paid for operator insurance app
     "value": 25
   },
   {
-    "key": "insuranceOrgPaidBaseCost",  //insurance base paid for operator insurance org
+    "key": "insuranceOrgBasePaid",  //insurance base paid for operator insurance org
     "value": 25
   },
   {
@@ -69,7 +69,7 @@
     "value": 0.5
   },
   {
-    "key": "insuranceOrgPaidBaseCost",  //insurance base paid for operator insurance org
+    "key": "insuranceOrgBasePaid",  //insurance base paid for operator insurance org
     "value": 25
   },
   {
