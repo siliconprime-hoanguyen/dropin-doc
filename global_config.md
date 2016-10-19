@@ -9,7 +9,11 @@
     "value": 20
   },
   {
-    "key": "dronePaidStreamingPerMinute", //drone streaming paid for operator drone ap
+    "key": "droneAppPaidStreamingPerMinute", //drone streaming paid for operator drone app
+    "value": 0.5
+  },
+  {
+    "key": "droneOrgPaidStreamingPerMinute", //drone streaming paid for operator drone org
     "value": 0.5
   },
   {
@@ -17,11 +21,19 @@
     "value": 1
   },
   {
-    "key": "dronePaidBaseCost", //drone base paid for operator drone app
+    "key": "droneAppPaidBaseCost", //drone base paid for operator drone app
     "value": 25
   },
   {
-    "key": "dronePaidTravellingPerMinute", //drone travelling paid for operator drone app
+    "key": "droneAppPaidTravellingPerMinute", //drone travelling paid for operator drone app
+    "value": 0.5
+  },
+  {
+    "key": "droneOrgPaidBaseCost", //drone base paid for operator drone org
+    "value": 25
+  },
+  {
+    "key": "droneOrgPaidTravellingPerMinute", //drone travelling paid for operator drone org
     "value": 0.5
   },
   {
@@ -37,7 +49,7 @@
     "value": 20
   },
   {
-    "key": "insurancePaidStreamingPerMinute", //insurance streaming paid for operator drone app
+    "key": "insuranceAppPaidStreamingPerMinute", //insurance streaming paid for operator drone app
     "value": 0.5
   },
   {
@@ -45,11 +57,23 @@
     "value": 1
   },
   {
-    "key": "insurancePaidBaseCost",  //insurance base paid for operator drone app
+    "key": "insuranceAppPaidBaseCost",  //insurance base paid for operator insurance app
     "value": 25
   },
   {
-    "key": "insurancePaidTravellingPerMinute", //insurance travelling paid for operator drone app
+    "key": "insuranceOrgPaidBaseCost",  //insurance base paid for operator insurance org
+    "value": 25
+  },
+  {
+    "key": "insuranceAppPaidTravellingPerMinute", //insurance travelling paid for operator insurance app
+    "value": 0.5
+  },
+  {
+    "key": "insuranceOrgPaidBaseCost",  //insurance base paid for operator insurance org
+    "value": 25
+  },
+  {
+    "key": "insuranceOrgPaidTravellingPerMinute", //insurance travelling paid for operator insurance org
     "value": 0.5
   }
 ]
