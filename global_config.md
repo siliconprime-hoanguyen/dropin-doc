@@ -1,80 +1,117 @@
 ```javascript
 [
   {
-    "key": "droneBaseCost", //drone initial fee for viewer drone app
-    "value": 12
+    "_id": "58081cba7854566683674004",
+    "key": "droneBaseCost",
+    "value": 12,
+    "type": "number"
   },
   {
-    "key": "droneCostStreamingPerMinute", //drone streaming fee for viewer drone app
-    "value": 20
+    "_id": "58081cba7854566683674005",
+    "key": "insuranceBaseCost",
+    "value": 12,
+    "type": "number"
   },
   {
-    "key": "droneAppPaidStreamingPerMinute", //drone streaming paid for operator drone app
-    "value": 0.5
+    "_id": "58081cba7854566683674006",
+    "key": "droneCostStreamingPerMinute",
+    "value": 20,
+    "type": "number"
   },
   {
-    "key": "droneOrgPaidStreamingPerMinute", //drone streaming paid for operator drone org
-    "value": 0.5
+    "_id": "58081cba7854566683674007",
+    "key": "droneAppPaidBaseCost",
+    "value": 25,
+    "type": "number"
   },
   {
-    "key": "droneCostTravellingPerMinute", //drone travelling fee for viewer drone app
-    "value": 1
+    "_id": "58081cba7854566683674008",
+    "key": "insuranceCostStreamingPerMinute",
+    "value": 20,
+    "type": "number"
   },
   {
-    "key": "droneAppBasePaid", //drone base paid for operator drone app
-    "value": 25
+    "_id": "58081cba7854566683674009",
+    "key": "insuranceOrgPaidBaseCost",
+    "value": 25,
+    "type": "number"
   },
   {
-    "key": "droneAppPaidTravellingPerMinute", //drone travelling paid for operator drone app
-    "value": 0.5
+    "_id": "58081cba785456668367400a",
+    "key": "droneAppPaidStreamingPerMinute",
+    "value": 0.5,
+    "type": "number"
   },
   {
-    "key": "droneOrgPaidBaseCost", //drone base paid for operator drone org
-    "value": 25
+    "_id": "58081cba785456668367400b",
+    "key": "droneOrgPaidTravellingPerMinute",
+    "value": 0.5,
+    "type": "number"
   },
   {
-    "key": "droneOrgPaidTravellingPerMinute", //drone travelling paid for operator drone org
-    "value": 0.5
+    "_id": "58081cba785456668367400c",
+    "key": "insuranceAppPaidBaseCost",
+    "value": 25,
+    "type": "number"
   },
   {
-    "key": "redirectAppRequestToDrone", //whether redirect ALL app requests to drone app?
+    "_id": "58081cba785456668367400d",
+    "key": "droneAppPaidTravellingPerMinute",
+    "value": 0.5,
+    "type": "number"
+  },
+  {
+    "_id": "58081cba785456668367400e",
+    "key": "insuranceAppPaidStreamingPerMinute",
+    "value": 0.5,
+    "type": "number"
+  },
+  {
+    "_id": "58081cba785456668367400f",
+    "key": "insuranceOrgPaidTravellingPerMinute",
+    "value": 0.5,
+    "type": "number"
+  },
+  {
+    "_id": "58081cba7854566683674010",
+    "key": "insuranceAppPaidTravellingPerMinute",
+    "value": 0.5,
+    "type": "number"
+  },
+  {
+    "_id": "58081cba7854566683674011",
+    "key": "droneOrgPaidStreamingPerMinute",
+    "value": 0.5,
+    "type": "number"
+  },
+  {
+    "_id": "58081cba7854566683674012",
+    "key": "redirectAppRequestToDrone",
     "value": false
   },
   {
-    "key": "insuranceBaseCost", //insurance initial fee for viewer drone app
-    "value": 12
+    "_id": "58081cba7854566683674013",
+    "key": "droneOrgPaidBaseCost",
+    "value": 25,
+    "type": "number"
   },
   {
-    "key": "insuranceCostStreamingPerMinute", //insurance streaming fee for viewer drone app
-    "value": 20
+    "_id": "58081cba7854566683674014",
+    "key": "insuranceCostTravellingPerMinute",
+    "value": 1,
+    "type": "number"
   },
   {
-    "key": "insuranceAppPaidStreamingPerMinute", //insurance streaming paid for operator drone app
-    "value": 0.5
+    "_id": "58081cba7854566683674015",
+    "key": "insuranceOrgPaidStreamingPerMinute",
+    "value": 25,
+    "type": "number"
   },
   {
-    "key": "insuranceCostTravellingPerMinute",  //insurance travelling fee for viewer drone app
-    "value": 1
-  },
-  {
-    "key": "insuranceAppBasePaid",  //insurance base paid for operator insurance app
-    "value": 25
-  },
-  {
-    "key": "insuranceOrgBasePaid",  //insurance base paid for operator insurance org
-    "value": 25
-  },
-  {
-    "key": "insuranceAppPaidTravellingPerMinute", //insurance travelling paid for operator insurance app
-    "value": 0.5
-  },
-  {
-    "key": "insuranceOrgBasePaid",  //insurance base paid for operator insurance org
-    "value": 25
-  },
-  {
-    "key": "insuranceOrgPaidTravellingPerMinute", //insurance travelling paid for operator insurance org
-    "value": 0.5
+    "_id": "58081cba7854566683674016",
+    "key": "droneCostTravellingPerMinute",
+    "value": 1,
+    "type": "number"
   }
 ]
 ```
