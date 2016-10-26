@@ -1,4 +1,3 @@
-```javascript
 [
   {
     "_id": "58081cba7854566683674004",
@@ -112,6 +111,20 @@
     "key": "droneCostTravellingPerMinute",
     "value": 1,
     "type": "number"
+  },
+  {
+    "_id": "5808712c7854566683674017",
+    "key": "droneAppBasePaid",
+    "value": ""
+  },
+  {
+    "_id": "5808712c7854566683674018",
+    "key": "insuranceAppBasePaid",
+    "value": ""
+  },
+  {
+    "_id": "5808712c7854566683674019",
+    "key": "insuranceOrgBasePaid",
+    "value": ""
   }
 ]
-```
