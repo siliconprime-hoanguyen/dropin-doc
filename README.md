@@ -283,6 +283,27 @@ POST /gigs/capture/:gigId
 }
 ```
 
+### Inform customer that photo is uploaded
+
+This API is to notify customer that the photo is uploaded
+
+```javascript
+POST /gigs/capturedone/:gigId
+```
+
+
+#### Notification sent to customer
+```javascript
+{
+  "code": 23,
+  "title": "Finished capturing photo",
+  "message": "Finished capturing photo",
+  "messageId": "ecffec9c-717d-49fc-9ad2-57b57ef59bc5",
+  "isUserNotification": false,
+  "gigId": "58183312831dc27b37676fca",
+  "location": "https://dropin-dev-public-photo-v2.s3-us-west-1.amazonaws.com/b8f20d10-9ffa-11e6-a29c-97857e854058"
+}
+```
 
 ### Customer requests drone streaming 
 
