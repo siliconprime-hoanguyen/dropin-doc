@@ -259,6 +259,31 @@ GET map/:lat/:long
 ```
 
 
+### Request operator to capture photo
+
+This API is to send stream request to available droperators, given customer fulfilled all requirements.
+
+```javascript
+POST /gigs/capture/:gigId
+```
+
+#### Notification sent to operator
+
+```javascript
+{
+  "code": 21,
+  "title": "Capture photo",
+  "message": "Capture photo",
+  "messageId": "6d800621-8fbc-4a3f-b91b-83172c4a8b01",
+  "isUserNotification": false,
+  "gigId": "58183312831dc27b37676fca",
+  "resource": {
+    "location": "https://dropin-dev-public-photo-v2.s3-us-west-1.amazonaws.com/b8f20d10-9ffa-11e6-a29c-97857e854058?AWSAccessKeyId=AKIAIGJ3SBRYGVQBRNBQ&Content-Type=binary%2Foctet-stream&Expires=1477981887&Signature=kwSJWD5AbMsV1z28a%2F1cK9B9Yv8%3D&x-amz-acl=public-read-write"
+  }
+}
+```
+
+
 ### Customer requests drone streaming 
 
 This API is to send stream request to available droperators, given customer fulfilled all requirements.
