@@ -261,7 +261,7 @@ GET map/:lat/:long
 
 ### Request operator to capture photo
 
-This API is to send stream request to available droperators, given customer fulfilled all requirements.
+This API is to send capture screen request to droperator, given customer fulfilled all requirements.
 
 ```javascript
 POST /gigs/capture/:gigId
