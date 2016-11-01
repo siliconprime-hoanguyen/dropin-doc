@@ -23,6 +23,25 @@ Research-QA-API: https://apiqa22.dropininc.com
 Research-QA-Web: https://appqa22.dropininc.com
 
 
+
+## Config
+
+### Get app price config
+
+```javascript
+GET /apppriceconfig
+```
+
+### Response 
+```javascript
+{
+  "initialFee": 100,
+  "streamingFee": 2,
+  "travelFee": 2
+}
+```
+
+
 ## Device
 
 ### Add device
