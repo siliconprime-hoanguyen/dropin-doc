@@ -1,10 +1,13 @@
-## 02-11-2016
 
-### https://github.com/dropininc/dropin-api-v2/pull/426/files
-##### Only update state for operator (no viewer) in mongodb
+### Only update state for operator (no viewer) in mongodb
 
-### https://github.com/dropininc/dropin-api-v2/pull/427/files
-##### Do not return password when getting account
+#### https://github.com/dropininc/dropin-api-v2/pull/426/files
+#### https://github.com/dropininc/dropin-api-v2/pull/429
 
-### https://github.com/dropininc/dropin-api-v2/pull/427/files
-##### Do not return password when updating account
+
+### Do not return password when getting account
+#### https://github.com/dropininc/dropin-api-v2/pull/427/files
+
+### Do not return password when updating account
+#### https://github.com/dropininc/dropin-api-v2/pull/427/files
+
