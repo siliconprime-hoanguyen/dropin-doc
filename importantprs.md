@@ -11,3 +11,7 @@
 ### Do not return password when updating account
 #### https://github.com/dropininc/dropin-api-v2/pull/427/files
 
+
+### Refine searching operator
+#### https://github.com/dropininc/dropin-api-v2/pull/431/files
+#### https://dropin.atlassian.net/browse/DESKTOP-658
