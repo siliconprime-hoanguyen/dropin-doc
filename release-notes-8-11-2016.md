@@ -27,7 +27,8 @@ https://dropin.atlassian.net/browse/DROPIN-455
 
 - https://github.com/dropininc/dropin-api-v2/pull/425 -> API for getting/setting price config.
 - https://github.com/dropininc/dropin-api-v2/pull/442 -> Fix bug for API getting/setting price config.
-- https://github.com/dropininc/dropin-api-v2/pull/414 -> Fix bug on 
+
+
 https://dropin.atlassian.net/browse/DROPIN-470
 https://dropin.atlassian.net/browse/DRONE-25
 https://dropin.atlassian.net/browse/DRONE-24
