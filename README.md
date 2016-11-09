@@ -543,6 +543,26 @@ post /gigs/rate/:gigId
 GET admin/gigs/count?start=xxx&limit=xxx&from=xxx&to=xxx&status=xxxx
 ```
 
+### Get users
+
+```javascript
+GET accounts/search/all
+```
+#### Query
+
+```javascript
+{
+    q: 'sdfsdfs' //search term
+    from: '2016-10-9' //search from
+    to: '2016-10-9' // search to
+    backgroundStatus: ['incompletedForm', 'completedForm', 'passed', 'failed'],
+    preferred: [true,false]
+    droneAccepted: [true,false]
+    accountType: ['organization','mobile'] //ignore for all
+}
+```
+
+
 #### Params
 
 ```javascript
