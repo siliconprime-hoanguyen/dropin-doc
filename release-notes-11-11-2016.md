@@ -1,4 +1,4 @@
-### API release note staging 8-10-2016
+### API release note staging 11-11-2016
 
 #### Direct prepaid streaming
 
