@@ -13,3 +13,9 @@
 ##### https://dropin.atlassian.net/browse/DRONE-80 please investigate more at app
 
 #### https://github.com/dropininc/dropin-api-v2/pull/450 --> remove first character at direct code.
+
+#### https://github.com/dropininc/dropin-api-v2/pull/454 --> Fix bug getting photos for gig
+##### https://dropin.atlassian.net/browse/DESKTOP-695
+
+#### https://github.com/dropininc/dropin-api-v2/pull/453 --> Increase redis timeout to 20 minutes, to be in agreement with out new rules of searching operator
+##### https://dropin.atlassian.net/browse/DESKTOP-694
