@@ -11,3 +11,5 @@
 
 #### https://github.com/dropininc/dropin-api-v2/pull/452 --> Shorten notification message
 ##### https://dropin.atlassian.net/browse/DRONE-80 please investigate more at app
+
+#### https://github.com/dropininc/dropin-api-v2/pull/450 --> remove first character at direct code.
