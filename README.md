@@ -62,7 +62,7 @@ POST /devices
 
 ## Upload
 
-### Get signed URL for upload
+### Get signed URL for upload with login
 
 ```javascript
 POST /storage
@@ -73,6 +73,22 @@ POST /storage
 {
   type:['profileImage','chat','gig'], //required
   gig: 'fdsgdgfgdf' //optional, gigId
+}
+```
+
+## Upload
+
+### Get signed URL for upload without login
+
+```javascript
+POST /storagenologin
+```
+
+### Body
+```javascript
+{
+  type:'gig', //required
+  gig: 'fdsgdgfgdf' gigId
 }
 ```
 
