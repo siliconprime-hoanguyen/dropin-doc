@@ -62,6 +62,22 @@ POST /devices
 
 ## Upload
 
+
+### Update status after uploading
+
+```javascript
+PATCH /storage/:id
+```
+
+### Body
+```javascript
+{
+  status:'uploaded', //or 'failed' if fail
+
+}
+```
+
+
 ### Get signed URL for upload with login
 
 ```javascript
