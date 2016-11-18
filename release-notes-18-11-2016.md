@@ -18,3 +18,7 @@
 - Update status of current photos to 'uploaded', the script is added to the ticket
 [DESKTOP-718](https://dropin.atlassian.net/browse/DESKTOP-718)
 
+- Update mail & app inbox template
+[DESKTOP-638](https://dropin.atlassian.net/browse/DESKTOP-638)
+[PR#466](https://github.com/dropininc/dropin-api-v2/pull/466)
+
