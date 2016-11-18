@@ -10,3 +10,11 @@
 [DESKTOP-714](https://dropin.atlassian.net/browse/DESKTOP-714)
 [PR#470](https://github.com/dropininc/dropin-api-v2/pull/470)
 
+
+- Update status after uploading
+[DESKTOP-713](https://dropin.atlassian.net/browse/DESKTOP-713)
+[PR#468](https://github.com/dropininc/dropin-api-v2/pull/468)
+
+- Update status of current photos to 'uploaded', the script is added to the ticket
+[DESKTOP-718](https://dropin.atlassian.net/browse/DESKTOP-718)
+
