@@ -1,6 +1,8 @@
 - Fix bug pricing when sending email 
 [DESKTOP-732](https://dropin.atlassian.net/browse/DESKTOP-732)
+[DESKTOP-738](https://dropin.atlassian.net/browse/DDIRECT-338)
 [PR#474](https://github.com/dropininc/dropin-api-v2/pull/474)
+
 
 - Return stripe transaction id in transaction
 [DESKTOP-726](https://dropin.atlassian.net/browse/DESKTOP-726)
