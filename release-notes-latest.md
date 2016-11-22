@@ -21,3 +21,6 @@
 
 - Integrate Opbeat
 [Integration notes](https://github.com/siliconprime-khanhnguyen/dropin-doc/blob/master/dropin/opbeat-integration.md)
+
+Diff 
+https://github.com/dropininc/dropin-api-v2/pull/478
