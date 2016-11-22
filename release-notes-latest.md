@@ -1,6 +1,6 @@
 - Fix bug pricing when sending email (hotfix to QA)
 [DESKTOP-732](https://dropin.atlassian.net/browse/DESKTOP-732)
-[DESKTOP-738](https://dropin.atlassian.net/browse/DDIRECT-338)
+[DIRECT-338](https://dropin.atlassian.net/browse/DDIRECT-338)
 [PR#474](https://github.com/dropininc/dropin-api-v2/pull/474)
 
 
