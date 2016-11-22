@@ -16,3 +16,8 @@
 [DESKTOP-734](https://dropin.atlassian.net/browse/DESKTOP-734)
 [PR#476](https://github.com/dropininc/dropin-api-v2/pull/476)
 
+- Integrate RisingStack/Trace
+[Integration notes](https://github.com/siliconprime-khanhnguyen/dropin-doc/blob/master/dropin/rising-stack-integration.md)
+
+- Integrate Opbeat
+[Integration notes](https://github.com/siliconprime-khanhnguyen/dropin-doc/blob/master/dropin/opbeat-integration.md)
