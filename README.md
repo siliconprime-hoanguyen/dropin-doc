@@ -379,6 +379,29 @@ POST /gigs/drone/request
 ```
 
 
+### Customer requests drone direct streaming 
+
+This API is to send stream request directly to drone.
+
+```javascript
+POST /gigs/drone/directrequest
+```
+
+#### Body
+```javascript
+{
+  email: 'abc@def.com',
+  phone: 'xxxxxx',
+  claimId: "fdsfdsfd" //optional
+  metaData: { //optional, json
+
+    instruction: "sdfdsfsd
+    //put whatever here
+  }
+}
+```
+
+
 ### Customer requests streaming 
 
 This API is to send stream request to available droperators, given customer fulfilled all requirements.
