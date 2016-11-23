@@ -395,7 +395,7 @@ POST /gigs/drone/directrequest
   claimId: "fdsfdsfd" //optional
   metaData: { //optional, json
 
-    instruction: "sdfdsfsd
+    instruction: "sdfdsfsd"
     //put whatever here
   }
 }
@@ -435,7 +435,7 @@ OR
   claimId: "fdsfdsfd" //optional
   metaData: { //optional, json
 
-    instruction: "sdfdsfsd
+    instruction: "sdfdsfsd"
     //put whatever here
   }
 }
