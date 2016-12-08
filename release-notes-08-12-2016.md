@@ -1,4 +1,4 @@
-- [API] Auto recording video.
+- [API] Auto recording video. (Not to production this release)
 [DRONE-134](https://dropin.atlassian.net/browse/DRONE-134)
 [PR#494](https://github.com/dropininc/dropin-api-v2/pull/494)
 
