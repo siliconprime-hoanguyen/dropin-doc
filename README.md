@@ -382,7 +382,18 @@ POST /gigs/drone/request
 ```
 
 
-### Log network for gig while streaming
+### Check bandwidth
+
+
+This API is to download a file to test bandwidth
+
+```javascript
+GET /testfile/12312
+```
+
+
+### Log network for gig 
+streaming
 
 This API is to log status for gig while streaming
 
@@ -400,7 +411,7 @@ POST /gigs/logStatusWhileStreaming/:gigId
 
 ### Check network for gig before streaming
 
-This API is to log status for gig while streaming
+This API is to log status for gig before streaming
 
 ```javascript
 POST /gigs/checkStatusBeforeStreaming/:gigId
