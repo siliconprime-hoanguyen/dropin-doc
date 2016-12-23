@@ -382,12 +382,28 @@ POST /gigs/drone/request
 ```
 
 
-### Log network for gig 
+### Log network for gig while streaming
 
-This API is to log status for gig
+This API is to log status for gig while streaming
 
 ```javascript
-POST /gigs/logStatus/:gigId
+POST /gigs/logStatusWhileStreaming/:gigId
+```
+
+#### Body
+```javascript
+{
+  bandwidth: 123
+  //Whatever to put here
+}
+```
+
+### Check network for gig before streaming
+
+This API is to log status for gig while streaming
+
+```javascript
+POST /gigs/checkStatusBeforeStreaming/:gigId
 ```
 
 #### Body
