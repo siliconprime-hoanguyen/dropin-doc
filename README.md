@@ -382,6 +382,23 @@ POST /gigs/drone/request
 ```
 
 
+### Log network for gig 
+
+This API is to log status for gig
+
+```javascript
+POST /gigs/logStatus/:gigId
+```
+
+#### Body
+```javascript
+{
+  bandwidth: 123
+  //Whatever to put here
+}
+```
+
+
 ### Customer requests drone direct streaming 
 
 This API is to send stream request directly to drone.
