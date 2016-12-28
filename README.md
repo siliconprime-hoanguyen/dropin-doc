@@ -425,6 +425,22 @@ POST /gigs/checkStatusBeforeStreaming/:gigId
 }
 ```
 
+### Log network
+
+This API is to log network status
+
+```javascript
+POST /gigs/logNetwork
+```
+
+#### Body
+```javascript
+{
+  bandwidth: 123
+  //Whatever to put here
+}
+```
+
 
 ### Customer requests drone direct streaming 
 
