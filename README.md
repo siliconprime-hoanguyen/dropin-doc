@@ -81,6 +81,21 @@ PATCH /storage/:id
 ```
 
 
+### Get signed URL for multiple assets
+
+```javascript
+POST /storagebatchlinks
+```
+### Body
+```javascript
+{
+ 
+  assetIds: ['fdsgdgfgdf','fdsfdsfds'] //array of assetIds
+}
+```
+
+
+
 ### Get signed URL for upload with login
 
 ```javascript
