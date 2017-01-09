@@ -361,7 +361,7 @@ POST /gigs/capturedone/:gigId
 ```
 ### Change video provider (web)
 
-This API is to notify customer that the photo is uploaded
+This API is to switch video provider while streaming
 
 ```javascript
 POST /gigs/switchVideoProvider/:gigId
