@@ -359,7 +359,21 @@ This API is to notify customer that the photo is uploaded
 ```javascript
 POST /gigs/capturedone/:gigId
 ```
+### Change video provider (web)
 
+This API is to notify customer that the photo is uploaded
+
+```javascript
+POST /gigs/switchVideoProvider/:gigId
+```
+
+#### Body
+
+```javascript
+{
+ provider: 'twilio' //or 'opentok'
+}
+``
 
 #### Notification sent to customer
 ```javascript
