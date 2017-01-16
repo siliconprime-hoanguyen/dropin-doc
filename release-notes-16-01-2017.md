@@ -18,3 +18,9 @@
 [DESKTOP-897](https://dropin.atlassian.net/browse/DESKTOP-897)
 [PR#508](https://github.com/dropininc/dropin-api-v2/pull/508)
 
+
+- [API] Fix authorize fee refund
+[DDIRECT-481](https://dropin.atlassian.net/browse/DDIRECT-481)
+[PR#522](https://github.com/dropininc/dropin-api-v2/pull/522)
+
+
