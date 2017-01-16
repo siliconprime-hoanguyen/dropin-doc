@@ -19,7 +19,7 @@
 [PR#508](https://github.com/dropininc/dropin-api-v2/pull/508)
 
 
-- [API] Fix authorize fee refund
+- [API] Add device info into direct transaction
 [DDIRECT-481](https://dropin.atlassian.net/browse/DDIRECT-481)
 [PR#522](https://github.com/dropininc/dropin-api-v2/pull/522)
 
