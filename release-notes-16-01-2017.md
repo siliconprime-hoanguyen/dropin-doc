@@ -3,7 +3,7 @@
 [PR#505](https://github.com/dropininc/dropin-api-v2/pull/505)
 
 - [API] Fix transaction history not added up
-[DESKTOP-875](https://dropin.atlassian.net/browse/DESKTOP-847)
+[DESKTOP-847](https://dropin.atlassian.net/browse/DESKTOP-847)
 [PR#499](https://github.com/dropininc/dropin-api-v2/pull/499)
 
 - [API] Fix invitation
