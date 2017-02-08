@@ -15,7 +15,7 @@
 [API] [OrgAdmin] USERS - Define formula to value of column in Users listing
 [DESKTOP-1046](https://dropin.atlassian.net/browse/DESKTOP-1046)
 
-[API] [SuperAdmin][Server] If an Org is setting up Prepaid Minute. It will reset to 0	
+[API] [Server] If an Org is setting up Prepaid Minute. It will reset to 0	
 [DESKTOP-1038](https://dropin.atlassian.net/browse/DESKTOP-1038)
 
 [PR#534](https://github.com/dropininc/dropin-api-v2/pull/534) 
