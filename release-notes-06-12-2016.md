@@ -1,6 +1,6 @@
-- [API] Auto recording video.
-[DRONE-134](https://dropin.atlassian.net/browse/DRONE-134)
-[PR#494](https://github.com/dropininc/dropin-api-v2/pull/494)
+- [API] [OrgAdmin/Viewer] Forgot password email: The Forgot password email:we send to users need to Bcc to a support email
+[DESKTOP-1067](https://dropin.atlassian.net/browse/DESKTOP-1067)
+[PR#540](https://github.com/dropininc/dropin-api-v2/pull/540)
 
 
 
