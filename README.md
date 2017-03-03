@@ -1146,3 +1146,11 @@ post /mixpanel/track
 **note**
 
 * Mobile can use any unique id associate with phone for udid field
+
+
+
+### upload to smart3d
+
+```javascript
+POST /storage/:assetId/3dsmartpicture
+```
