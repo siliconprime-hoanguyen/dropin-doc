@@ -1154,3 +1154,17 @@ post /mixpanel/track
 ```javascript
 POST /storage/:assetId/3dsmartpicture
 ```
+
+### share link
+
+```javascript
+POST storage/3dsmart/share
+```
+
+```javascript
+{
+	email: 'avsd@fdsfd.com',
+	message: 'test message',
+	url: 'http://localhost'
+}
+```
