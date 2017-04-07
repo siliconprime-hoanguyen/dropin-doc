@@ -110,6 +110,20 @@ POST /storage
 }
 ```
 
+### Get signed URL for upload with login
+
+```javascript
+POST /storagelogo
+```
+
+### Body
+```javascript
+{
+
+  organization: 'organizationId' //optional, organizationId
+}
+```
+
 ## Upload
 
 ### Get signed URL for upload without login
