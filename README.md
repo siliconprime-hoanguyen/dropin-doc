@@ -110,7 +110,7 @@ POST /storage
 }
 ```
 
-### Get signed URL for upload with login
+### Get signed URL for uploading org logo
 
 ```javascript
 POST /storagelogo
