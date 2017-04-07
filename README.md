@@ -124,6 +124,13 @@ POST /storagelogo
 }
 ```
 
+
+### removal of ALL org logos
+
+```javascript
+DELETE /organizations/:organizationId/logos/all
+```
+
 ## Upload
 
 ### Get signed URL for upload without login
