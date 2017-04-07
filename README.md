@@ -120,7 +120,7 @@ POST /storagelogo
 ```javascript
 {
 
-  organization: 'organizationId' //optional, organizationId
+  organization: 'organizationId'  organizationId
 }
 ```
 
