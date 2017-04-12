@@ -116,6 +116,12 @@ POST /storage
 POST /storagelogo
 ```
 
+## Get signed URL for uploading org logo without text
+
+```javascript
+POST /storagelogowithouttext
+```
+
 ### Body
 ```javascript
 {
@@ -129,6 +135,12 @@ POST /storagelogo
 
 ```javascript
 DELETE /organizations/:organizationId/logos/all
+```
+
+### removal of ALL org logos (without text)
+
+```javascript
+DELETE /organizations/:organizationId/logoswithouttext/all
 ```
 
 ## Upload
