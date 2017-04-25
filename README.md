@@ -557,6 +557,7 @@ OR
 {
   email: 'abc@def.com',
   phone: 'xxxxxx',
+  uploadFullSizePhoto: true, //or false, whether to upload full size photo.
   claimId: "fdsfdsfd" //optional
   metaData: { //optional, json
 
