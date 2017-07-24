@@ -15,7 +15,7 @@ Staging-Web: https://appstaging.dropininc.com
 Production-API: https://apiprod21.dropininc.com
 Production-Web: https://app.dropininc.com
 
-NewProduction-API: https://apiprod22.dropininc.com
+NewProduction-API: https://apiprod22.dropininc.c
 NewProduction-Web: https://app2.dropininc.com
 
 
@@ -58,7 +58,8 @@ POST /devices
 {
   deviceAddress:'xxxxxx', //required
   deviceType: 'ios', //or 'android', required
-  bundleId: 'com.dropininc.com' //if not provided, then default bundle id configed is server will be used.
+  bundleId: 'com.dropininc.com', //if not provided, then default bundle id configed is server will be used.
+  type: 'push' //or 'voip', default is push
 }
 ```
 
