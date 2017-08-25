@@ -27,7 +27,7 @@ Research-QA-Web: https://appqa22.dropininc.com
 
 
 
-## Config
+## Config 
 
 ### Get app price config
 
